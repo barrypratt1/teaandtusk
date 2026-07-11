@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#596b57"/>
+    <stop offset="100%" stop-color="#d7a879"/>
+  </linearGradient>
+  <filter id="grain"><feTurbulence baseFrequency=".7" numOctaves="2" stitchTiles="stitch" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .09"/></feComponentTransfer></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#g)"/>
+<path d="M0 720 C220 540 420 640 610 510 C800 390 990 530 1200 390 C1370 280 1490 320 1600 260 L1600 1000 L0 1000 Z" fill="#213829" opacity=".55"/>
+<path d="M0 810 C260 690 410 760 680 650 C930 550 1210 720 1600 530 L1600 1000 L0 1000 Z" fill="#17281d" opacity=".65"/>
+<text x="800" y="420" text-anchor="middle" font-size="108" font-family="Georgia" fill="#fffaf1">⛩</text>
+<text x="800" y="535" text-anchor="middle" font-size="60" letter-spacing="5" font-family="Georgia" fill="#fffaf1">JAPAN</text>
+<text x="800" y="595" text-anchor="middle" font-size="28" letter-spacing="3" font-family="Arial" fill="#f0e5d2">RITUAL · PRECISION · CRAFT</text>
+<rect width="1600" height="1000" filter="url(#grain)"/>
+</svg>

@@ -1,45 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Tea & Tusk</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      margin: 0;
-      font-family: Georgia, serif;
-      background: #11100d;
-      color: #f5efe4;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 30px;
-    }
-    h1 {
-      font-size: 64px;
-      font-weight: normal;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 22px;
-      line-height: 1.5;
-      max-width: 700px;
-    }
-    .small {
-      font-size: 16px;
-      color: #c9a86a;
-      text-transform: uppercase;
-      letter-spacing: 4px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tea & Tusk brings together exceptional Asian tea, Japanese craft and meaningful support for elephant welfare.">
+    <title>Tea & Tusk | Tea with purpose</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script defer src="/static/js/main.js"></script>
 </head>
 <body>
-  <main>
-    <div class="small">Launching soon</div>
-    <h1>Tea & Tusk</h1>
-    <p>Premium tea from Sri Lanka and Japan.</p>
-    <p>Inspired by ritual, craft and elephant conservation.</p>
-  </main>
+<header class="site-header">
+    <a class="brand" href="/index.html" aria-label="Tea & Tusk home">
+        <span class="brand-mark">🐘</span>
+        <span>TEA &amp; TUSK</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+    <nav class="site-nav" aria-label="Main navigation">
+        <a class="active" href="/index.html">Home</a>
+        <a class="" href="/about.html">About</a>
+        <a class="" href="/tea.html">Tea</a>
+        <a class="" href="/japanese-art.html">Curated Japanese artists</a>
+        <a class="" href="/elephant-project.html">Elephant Project</a>
+        <a class="" href="/contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    
+<section class="hero hero-home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <p class="eyebrow">Sri Lanka · Japan · China</p>
+        <h1>TEA &amp; TUSK</h1>
+        <p class="hero-subtitle">Tea with purpose</p>
+        <a class="button button-light" href="/about.html">Explore our story</a>
+    </div>
+</section>
+
+<section class="section intro">
+    <p class="eyebrow dark">Our story</p>
+    <h2>Tea, craft and conservation</h2>
+    <p class="lead">
+        Tea &amp; Tusk was created after journeys through Sri Lanka and Japan revealed
+        exceptional tea traditions, remarkable makers and elephant welfare projects
+        deserving wider support.
+    </p>
+
+    <div class="three-cards">
+        <a class="story-card" href="/tea.html">
+            <img src="/static/images/japan.png" alt="Stylised Japanese landscape">
+            <h3>Japan</h3>
+            <p>Ritual, precision and vibrant green tea.</p>
+        </a>
+        <a class="story-card" href="/tea.html">
+            <img src="/static/images/srilanka.png" alt="Stylised Sri Lankan tea hills">
+            <h3>Sri Lanka</h3>
+            <p>Exceptional black tea and lasting partnerships.</p>
+        </a>
+        <a class="story-card" href="/elephant-project.html">
+            <img src="/static/images/elephants.png" alt="Stylised elephants in a landscape">
+            <h3>Elephants</h3>
+            <p>Better welfare through transparent support.</p>
+        </a>
+    </div>
+</section>
+
+<section class="section collections">
+    <p class="eyebrow dark">Our collections</p>
+    <h2>Curated with care</h2>
+
+    <div class="collection-grid">
+        <a class="collection-card tea-card" href="/tea.html">
+            <span>Asian Tea</span>
+        </a>
+        <a class="collection-card art-card" href="/japanese-art.html">
+            <span>Curated Japanese artists &amp; Ceramics</span>
+        </a>
+        <a class="collection-card elephant-card" href="/elephant-project.html">
+            <span>Elephant Project</span>
+        </a>
+    </div>
+</section>
+
+<section class="values-band">
+    <h2>Why Tea &amp; Tusk?</h2>
+    <div class="value-grid">
+        <div><strong>Directly sourced</strong><span>Long-term producer relationships</span></div>
+        <div><strong>Artisan made</strong><span>Objects with a genuine maker story</span></div>
+        <div><strong>Small batch</strong><span>Quality before volume</span></div>
+        <div><strong>Transparent impact</strong><span>Clear support for elephant welfare</span></div>
+    </div>
+</section>
+
+<section class="impact-quote">
+    <p>“Every partnership should leave people, place and wildlife better supported.”</p>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div>
+        <div class="brand footer-brand"><span class="brand-mark">🐘</span><span>TEA &amp; TUSK</span></div>
+        <p>Exceptional tea. Considered craft. Meaningful impact.</p>
+    </div>
+    <div class="footer-links">
+        <a href="mailto:hello@teaandtusk.co.uk">hello@teaandtusk.co.uk</a>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+    </div>
+    <p class="copyright">© 2026 Tea &amp; Tusk Ltd.</p>
+</footer>
 </body>
 </html>
