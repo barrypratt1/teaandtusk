@@ -224,7 +224,7 @@ a { color: inherit; }
 }
 .page-hero.narrow p { max-width: 760px; margin-left: auto; margin-right: auto; }
 .tea-page-hero { background-image: linear-gradient(rgba(20,30,21,.25), rgba(20,30,21,.58)), url("/static/images/tea-hero.png"); }
-.art-page-hero { background-image: linear-gradient(rgba(20,30,21,.18), rgba(20,30,21,.58)), url("/static/images/minori feature blank.png"); }
+.art-page-hero { background-image: linear-gradient(rgba(20,30,21,.18), rgba(20,30,21,.58)), url("/static/images/minori-feature-blank.png"); }
 .elephant-page-hero { background-image: linear-gradient(rgba(20,30,21,.25), rgba(20,30,21,.62)), url("/static/images/elephants.png"); }
 
 .split-section, .artist-feature, .contact-panel {
