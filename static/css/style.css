@@ -58,6 +58,13 @@ a { color: inherit; }
 
 .brand-mark { filter: sepia(1); }
 
+.brand-logo{
+    width:42px;
+    height:42px;
+    object-fit:contain;
+    display:block;
+}
+
 .site-nav { display: flex; gap: 1.45rem; align-items: center; }
 .site-nav a {
     font-size: .84rem;
